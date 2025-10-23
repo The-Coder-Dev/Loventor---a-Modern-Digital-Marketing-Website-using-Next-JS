@@ -11,10 +11,12 @@ const Hero = () => {
       <div className="flex flex-col items-center justify-center mx-auto max-w-7xl  h-full px-10 ">
         <video
           src="/mainbg.mp4"
+          poster="/poster.png"
           autoPlay
           loop
           muted
           playsInline
+          preload="metadata" 
           className="absolute inset-0 w-full h-screen object-cover -z-10    "
         ></video>
         <div className="flex flex-col gap-4 ">

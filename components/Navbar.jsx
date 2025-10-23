@@ -16,7 +16,7 @@ export default function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-[999] text-white bg-black/50 border-b-[1px] border-white/20 backdrop-blur-md h-20 flex items-center px-5">
+    <nav className="absolute top-0 left-0 w-full z-999 text-white bg-black/50 border border-white/20 backdrop-blur-md h-20 flex items-center px-5">
       {/* Top Bar */}
       <div className="mx-auto max-w-7xl flex items-center justify-center w-full ">
         <div className="w-full flex items-center justify-between  ">
@@ -57,7 +57,7 @@ export default function MobileNavbar() {
 
         {/* Mobile Menu Drawer */}
         <div
-          className={`absolute top-20 left-0 w-full  bg-gradient-to-b bg-black h-100 md:hidden
+          className={`absolute top-20 left-0 w-full bg-black h-100 md:hidden
         backdrop-blur-lg flex flex-col items-start justify-center space-y-6 p-5 transition-all duration-500
         ${
           isOpen
@@ -80,6 +80,7 @@ export default function MobileNavbar() {
 
           <Link
             href="/contact"
+            onClick={() => setIsOpen(false)}
             className="cursor-pointer w-full text-white bg-primary shadow-2xl shadow-primary outline-accent hover:bg-blue-800  transition-colors duration-300 outline-2 px-4 py-2 rounded-lg"
           >
             Get In Touch
