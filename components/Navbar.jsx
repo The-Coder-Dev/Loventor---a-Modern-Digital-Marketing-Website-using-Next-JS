@@ -16,7 +16,7 @@ export default function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-999 text-white bg-black/50 border border-white/20 backdrop-blur-md h-20 flex items-center px-5">
+    <nav className="absolute top-0 left-0 w-full z-999 text-white bg-black/50 border-b border-white/20 backdrop-blur-md h-20 flex items-center px-5">
       {/* Top Bar */}
       <div className="mx-auto max-w-7xl flex items-center justify-center w-full ">
         <div className="w-full flex items-center justify-between  ">
