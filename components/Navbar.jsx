@@ -16,14 +16,14 @@ export default function MobileNavbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-999 text-white bg-black/50 border-b border-white/20 backdrop-blur-md h-20 flex items-center px-5">
+    <nav className="fixed top-0 left-0 w-full z-999 text-white bg-black/50 border-b border-white/20 backdrop-blur-md h-20 flex items-center px-5">
       {/* Top Bar */}
       <div className="mx-auto max-w-7xl flex items-center justify-center w-full ">
         <div className="w-full flex items-center justify-between  ">
           {/* Logo + Menu Links / Right Side*/}
           <div className="flex items-center gap-10">
             <Link href="/">
-              <Image src="/Logo.svg" width={60} height={60} alt="Logo" />
+              <Image src="/devixlogo.png" width={100} height={60} alt="Logo" />
             </Link>
 
             <div className="items-center gap-3 hidden md:flex">
