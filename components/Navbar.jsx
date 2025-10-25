@@ -1,7 +1,8 @@
 "use client";
 import { Link } from "next-view-transitions";
 import { useState } from "react";
-import { X, Menu } from "lucide-react";
+import { LuAlignJustify } from "react-icons/lu";
+import { IoCloseOutline } from "react-icons/io5";
 import Button from "./Button";
 import Image from "next/image";
 
@@ -51,7 +52,7 @@ export default function MobileNavbar() {
             onClick={() => setIsOpen(!isOpen)}
             className="p-2 rounded-md bg-white/20 cursor-pointer flex md:hidden"
           >
-            {isOpen ? <X size={22} /> : <Menu size={22} />}
+            {isOpen ? <IoCloseOutline size={22} /> : <LuAlignJustify size={22} />}
           </button>
         </div>
 
