@@ -35,7 +35,7 @@ const SocialLinks = [
 
 const Footer = () => {
   return (
-    <section className='w-full h-fit pt-10 bg-black bg-[url("/FooterImg.png")] bg-center bg-cover bg-no-repeat border-t border-white/10 flex flex-col items-center justify-center'>
+    <section className='w-full h-fit pt-10 bg-black bg-[url("/FooterImg.webp")] bg-center bg-cover bg-no-repeat border-t border-white/10 flex flex-col items-center justify-center'>
       <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-start justify-between w-full h-full p-10 gap-10">
         {/* First Box Content */}
         <div className="w-full h-full flex flex-col justify-center gap-5">

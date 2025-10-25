@@ -6,7 +6,7 @@ import { Link } from "next-view-transitions";
 const CtaSection = () => {
   return (
     <section className="flex items-center justify-center h-fit p-5 w-full md:pb-20">
-      <div className="mx-auto max-w-4xl w-full h-100 rounded-4xl bg-[url('/ctaImg.jpg')] bg-cover bg-center bg-no-repeat border border-gray-300/10 ">
+      <div className="mx-auto max-w-4xl w-full h-100 rounded-4xl bg-[url('/ctaImg.webp')] bg-cover bg-center bg-no-repeat border border-gray-300/10 ">
         <div className="w-full h-full overflow-hidden bg-black/50 backdrop-blur-xl rounded-4xl flex flex-col items-center justify-center gap-3 ">
         
         <PageButton PageTitle={"Join Us Now"} />

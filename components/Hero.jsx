@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="flex flex-col items-center justify-center mx-auto max-w-7xl  h-full px-10 ">
         <video
           src="/mainbg.mp4"
-          poster="/poster.png"
+          poster="/poster.webp"
           autoPlay
           loop
           muted
