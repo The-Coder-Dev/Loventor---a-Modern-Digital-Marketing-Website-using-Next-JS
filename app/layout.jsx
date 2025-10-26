@@ -1,9 +1,9 @@
 import { DM_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import SmoothScroller from "@/components/SmoothScroller";
 import Footer from "@/components/Footer";
-
+import SmoothScroller from "@/components/SmoothScroller";
 import { ViewTransitions } from "next-view-transitions";
 import FaqSection from "@/components/FaqSection";
 import CtaSection from "@/components/CtaSection";
@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
           <SmoothScroller />
           <Navbar />
           {children}
+          <Analytics />
           <FaqSection />
           <CtaSection />
           <Footer />

@@ -20,10 +20,10 @@ const Hero = () => {
           className="absolute inset-0 w-full h-screen object-cover -z-10    "
         ></video>
         <div className="flex flex-col gap-4 ">
-          <Infotip boxContent={"Best"} text={" Agency in Mathura"}/>
+          <Infotip boxContent={"Best"} text={" Studio in Mathura"}/>
 
           <h1 className="text-white  text-6xl md:text-8xl uppercase font-bold">
-            Elevate your brand transform your experience
+            Web Solutions for Mathura & Vrindavan Businesses 
           </h1>
           <p className="text-white/80 tracking-wide md:w-150 ">
             We specialize in crafting unique digital presence that help
